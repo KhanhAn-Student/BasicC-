@@ -12,7 +12,7 @@ int main(){
 	}
 	for(int i=0;i<n;i++){
 		if(a[i]%3==0) {
-		max=fmax(max,a[i]);
+		max=fmax(max,a[i]);    //fmax: lấy số lớn nhất trong các số trong ngoặc
 		
 		}
 		
